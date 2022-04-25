@@ -9,7 +9,7 @@
 // {
 //     let login = prompt('login');
 //     let passw = prompt('password');
-//        if (login === "kykold", passw === "1234asdQQ"){
+//        if (login === "kykold" && passw === "1234asdQQ"){
 //            alert('Добро пожаловать');
 //        }    
 //        else {
@@ -31,7 +31,7 @@
 //     alert(resout)
 //     if (resout >= 16){
 //         alert ('Добро пожаловать');
-//     } else if (resout < 16){
+//     } else {
 //         alert ('Вход восприщен')
 //     }
 // }
@@ -53,6 +53,22 @@
 
 // alert( message );
 
+// let age = prompt('стаж работы')
+
+//   if(age<=5){
+//     alert('Надбавка 1000');
+//   } if(age <= 10) {
+//     alert ('Надбавка 4000');
+//   } if(age <= 20) {
+//     alert('Надбавка 7000');
+//   } if(age <= 30) {
+//     alert('Надбавка 10000');
+//   } if(age <= 40) {
+//     alert('Надбавка 20000');
+//   } else { 
+//     alert ('error');
+//   }
+  
 
 /*
 Задача (Условный оператор и свитч кейс)
@@ -68,56 +84,26 @@
 
 // if (yer == 1) {
 //   alert('Monday');
-// } else {
-//   alert('error'); 
-// }
-
-// let tues = prompt("Number");
-
-// if (tues == 2) {
+// } 
+// if (yer == 2) {
 //   alert('Tuesday');
-// } else {
-//   alert('error'); 
-// }
-
-// let wedn = prompt("Number");
-
-// if (wedn == 3) {
+// } 
+// if (yer == 3) {
 //   alert('Wednesday');
-// } else {
-//   alert('error'); 
 // }
-
-// let thur = prompt("Number");
-
-// if (thur == 4) {
+// if (yer == 4) {
 //   alert('Thursday');
-// } else {
-//   alert('error'); 
 // }
-
-// let frid = prompt("Number");
-
-// if (frid == 5) {
+// if (yer == 5) {
 //   alert('Friday');
-// } else {
-//   alert('error'); 
-// }
-
-// let sat = prompt("Number");
-
-// if (sat == 6) {
+// } 
+// if (yer == 6) {
 //   alert('Saturday');
-// } else {
-//   alert('error'); 
 // }
-
-// let sun = prompt("Number");
-
-// if (sun == 7) {
+// if (yer == 7) {
 //   alert('Sunday');
-// } else {
-//   alert('error'); 
+// }  else{
+//   alert("dddd");
 // }
 
 
@@ -154,11 +140,30 @@
 //         break;      
 //   }
 
-//4.3
+//4.3 
 
-// var stop = false, age = 16;
+let age = prompt('День');
+if (age == 1) {
+  alert('Monday');
+} else if (age == 2) {
+  alert('Tuesday');
+} else if (age == 3) {
+  alert('Wednesday');
+} else if (age == 4) {
+  alert('Thursday');
+} else if (age == 5) {
+  alert('Friday');
+}  else if (age == 6) {
+  alert('Saturday');
+} else if (age == 7) {
+  alert('Sunday');
+} else {
+  alert ("error")
+}
 
-// age > 18 ? location.assign("continue.html") : stop = true;
+
+//?
+
 
 /* Задача 5 (Условный оператор)
  Используя конструкцию if..else, напишите код, который получает число через prompt, а затем выводит в alert:
@@ -214,10 +219,10 @@ if (login == 'Сотрудник') {
 //  let user1 = prompt("your apartmenе ?");
 //  if(user1<=20){
 //    alert("first house");
-//   } if(user1 >=49){
+//   } else if (user1 >=49){
 //     alert("three house");
 //    }
-//  if(user1 >=21){
+//   else (user1 >=21); {
 //    alert("two house");
 //  }
 
@@ -242,15 +247,23 @@ if (login == 'Сотрудник') {
 //     alert( 'We hope that this page looks ok!' );
 // }
 
-let user = prompt("");
-if(user == "Edge"){
-  alert( "You've got the Edge!" );
-} if(user === 'Chrome','Firefox','Safari','Opera'){
-  alert( 'Okay we support these browsers too' );
-} else {
-  alert( 'We hope that this page looks ok!' );
-}
 
+// if(browser == 'Edge') {
+//   alert("You've got the Edge!");
+// } else if (browser == 'Chrome'
+
+//  || browser == 'Firefox'
+
+//  || browser == 'Safari'
+
+//  || browser == 'Opera') 
+//  {
+//   alert( 'Okay we support these browsers too' );
+
+// } else {
+
+//   alert( 'We hope that this page looks ok!' );
+// }
 
 
 
@@ -275,3 +288,23 @@ if (number === 2 || number === 3) {
   alert('Вы ввели число 2, а может и 3');
 }
 */
+
+// const number = +prompt('Введите число между 0 и 3', '');
+
+// switch(number) {
+// case 0:
+//   alert('Ввели число 0');
+//   break;
+
+// case 1:
+//   alert('Ввели число 1');
+//   break;
+
+// case 2:
+//   alert('Ввели число 2');
+//   break;
+  
+// case 3:
+//   alert('Ввели число 3');
+//   break;
+// }
