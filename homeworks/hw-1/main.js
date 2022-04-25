@@ -57,13 +57,13 @@
 
 //   if(age<=5){
 //     alert('Надбавка 1000');
-//   } if(age <= 10) {
+//   } else if(age <= 10) {
 //     alert ('Надбавка 4000');
-//   } if(age <= 20) {
+//   } else if(age <= 20) {
 //     alert('Надбавка 7000');
-//   } if(age <= 30) {
+//   } else if(age <= 30) {
 //     alert('Надбавка 10000');
-//   } if(age <= 40) {
+//   } else if(age <= 40) {
 //     alert('Надбавка 20000');
 //   } else { 
 //     alert ('error');
@@ -85,25 +85,25 @@
 // if (yer == 1) {
 //   alert('Monday');
 // } 
-// if (yer == 2) {
+// else if (yer == 2) {
 //   alert('Tuesday');
 // } 
-// if (yer == 3) {
+// else if (yer == 3) {
 //   alert('Wednesday');
 // }
-// if (yer == 4) {
+// else if (yer == 4) {
 //   alert('Thursday');
 // }
-// if (yer == 5) {
+// else if (yer == 5) {
 //   alert('Friday');
 // } 
-// if (yer == 6) {
+// else if (yer == 6) {
 //   alert('Saturday');
 // }
-// if (yer == 7) {
+// else if (yer == 7) {
 //   alert('Sunday');
 // }  else{
-//   alert("dddd");
+//   alert("error");
 // }
 
 
@@ -142,27 +142,25 @@
 
 //4.3 
 
-let age = prompt('День');
-if (age == 1) {
-  alert('Monday');
-} else if (age == 2) {
-  alert('Tuesday');
-} else if (age == 3) {
-  alert('Wednesday');
-} else if (age == 4) {
-  alert('Thursday');
-} else if (age == 5) {
-  alert('Friday');
-}  else if (age == 6) {
-  alert('Saturday');
-} else if (age == 7) {
-  alert('Sunday');
-} else {
-  alert ("error")
-}
+// let age = prompt('День');
+// if (age == 1) {
+//   alert('Monday');
+// } else if (age == 2) {
+//   alert('Tuesday');
+// } else if (age == 3) {
+//   alert('Wednesday');
+// } else if (age == 4) {
+//   alert('Thursday');
+// } else if (age == 5) {
+//   alert('Friday');
+// }  else if (age == 6) {
+//   alert('Saturday');
+// } else if (age == 7) {
+//   alert('Sunday');
+// } else {
+//   alert ("error")
+// }
 
-
-//?
 
 
 /* Задача 5 (Условный оператор)
@@ -198,6 +196,8 @@ if (login == 'Сотрудник') {
 }
 */
 
+//варинат 1
+
 // let message = prompt("login");
 
 // (message == 'Сотрудник') ? 
@@ -209,6 +209,17 @@ if (login == 'Сотрудник') {
 //  (message == '') ? 
 //  alert('Нет логина') : alert('');
 
+//вариант 2
+
+//  let message = prompt("login");
+
+// if (message == 'Сотрудник'){  
+//  alert('Hello');
+// } else if (message == 'Директор'){ 
+//  alert('Здравствуйте');
+// } else { 
+//  alert('Нет логина');
+// }
 /* 
  Задача 7 (Условный оператор)
  В первом подъезде квартиры с 1 по 20. Во втором с 21 по 48. В третьем с 49 по 90.
@@ -224,6 +235,16 @@ if (login == 'Сотрудник') {
 //    }
 //   else (user1 >=21); {
 //    alert("two house");
+//  }
+
+// let user1 = prompt("your apartmenе ?");
+//  if(user1 >=1 && user1<=20){
+//    alert("first house");
+//   } else if (user1 >=21 && user1<=48){
+//     alert("two house");
+//    }
+//   else if (user1 >=49 && user1<=90); {
+//    alert("three house");
 //  }
 
 
@@ -301,10 +322,8 @@ if (number === 2 || number === 3) {
 //   break;
 
 // case 2:
-//   alert('Ввели число 2');
-//   break;
-  
 // case 3:
-//   alert('Ввели число 3');
+
+//   alert('Вы ввели число 2, а может и 3');
 //   break;
 // }
