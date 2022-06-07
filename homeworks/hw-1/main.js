@@ -227,15 +227,15 @@ if (login == 'Сотрудник') {
 
 */
 
-//  let user1 = prompt("your apartmenе ?");
-//  if(user1<=20){
-//    alert("first house");
-//   } else if (user1 >=49){
-//     alert("three house");
-//    }
-//   else (user1 >=21); {
-//    alert("two house");
-//  }
+ let user1 = prompt("your apartmenе ?");
+ if(user1<=20){
+   alert("first house");
+  } else if (user1 >=49){
+    alert("three house");
+   }
+  else (user1 >=21); {
+   alert("two house");
+ }
 
 // let user1 = prompt("your apartmenе ?");
 //  if(user1 >=1 && user1<=20){
