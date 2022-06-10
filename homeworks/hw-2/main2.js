@@ -97,19 +97,21 @@
 //   console.log(value);
 // }
 
-let nmbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let iterable = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-for (nmbers * 3; nmbers > 200;i++) { //50 чтобы прохподил массив
-  alert(nmbers);
-}
-console.log(nmbers)
-
-// ?
-// let i = 0; 
-
-// for (; i < 3; i++) { // нет необходимости в "начале"
-//   alert( i ); // 0, 1, 2
+// for (let value in iterable) {
+//   value *= 3;
+//   console.log(value);
 // }
+
+let numbers  = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+ for(let i = 0; i < numbers.length; i++ )
+ {
+     console.log(numbers[i] * 3);
+ }
+
+
 
 //10 Дан массив [3, 5, 2, 7, 6, 10, 33]. Отсортировать массив через метод sort.
 
@@ -134,11 +136,11 @@ console.log(nmbers)
 
 // const arre = [1, 2, 3, 4, 5]
 
-// arre1[arre[1, 2, 3, 4, 5]] = 5; 
-
 // for (let value of arre) {
 //     value *= 10;
 //     console.log(value);
+
+//     arre1.push (value);
 //   }
 
 
@@ -157,18 +159,9 @@ console.log(nmbers)
 
 //14) Дана строка 'Hello, I java script! I love JS!'. Вывести часть строки 'Hello, I java script!' через slice.
 
+
 // let str = 'Hello, I java script! I love JS!';
 
-// console.log(str.slice())
+// let arr = str.split(' ');
 
-
-// let str = ['Hello','I','java','script!','I','love','JS!'];
-
-// console.log(str.slice(0,4))
-
-
-let str = 'Hello, I java script! I love JS!';
-
-let arr = str.split(', ');
-
-console.log(arr.slice(0,3))
+// console.log(arr.slice(0,4))
