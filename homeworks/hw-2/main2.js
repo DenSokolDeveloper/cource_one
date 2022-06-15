@@ -60,7 +60,8 @@
 // arey.splice(6, 0, "c");
 // arey.splice(8, 0, "e");
 
-// console.log( arey ); 
+// arey.lenght; 
+
 
 
 //7 Дан массив [1, 2, 3, 'banan', 4, 5]. Вывести индекс элемента 'banan'. Вывести элемент 'banan' по его индексу
@@ -104,12 +105,12 @@
 //   console.log(value);
 // }
 
-let numbers  = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let numbers  = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
- for(let i = 0; i < numbers.length; i++ )
- {
-     console.log(numbers[i] * 3);
- }
+//  for(let i = 0; i < numbers.length; i++ )
+//  {
+//      console.log(numbers[i] * 3);
+//  }
 
 
 
@@ -132,16 +133,17 @@ let numbers  = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 //12 Дан массив const arr = [1, 2, 3, 4, 5]. Создать новый пустой массив arr1. Обойти массив arr через цикл for, каждый элемент массива arr умножить на 10 и результат положить в массив arr1.
 
 
-// const arre1 = []
+const arre1 = []
 
-// const arre = [1, 2, 3, 4, 5]
+const arre = [1, 2, 3, 4, 5]
 
-// for (let value of arre) {
-//     value *= 10;
-//     console.log(value);
+for(let i = 0; i < arre.length; i++ )
+ {
+     console.log(arre[i] * 10);
 
-//     arre1.push (value);
-//   }
+     arre1.push (arre);
+ }
+
 
 
 // console.log(arre1);
